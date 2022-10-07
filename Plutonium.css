@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+h1 {
+    text-align: center;
+    top: 7px;
+    left: 35px;
+    background: linear-gradient(90deg, #ff0000, #ffbb00, #fbff00, #00ff15, #00fff2, #1900ff,#ff00c4);
+    background-size: 400%;
+    font-size: 100px;
+    font-family: sans-serif;
+    Letter-spacing: 10px;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 7s linear infinite;
+
+}
+p {
+    text-align: center;
+    top: 200px;
+    left: 40px;
+    background: linear-gradient(90deg, #ff0000, #ffbb00, #fbff00, #00ff15, #00fff2, #1900ff,#ff00c4);
+    background-size: 400%;
+    font-size: 100%;
+    font-family: sans-serif;
+    Letter-spacing: 10px;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 7s linear infinite;
+
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
